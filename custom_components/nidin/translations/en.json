@@ -1,0 +1,53 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Nidin is already configured"
+        },
+        "error": {
+            "connection_error": "Connecting to Nidin with error.",
+            "cannot_connect": "Can't connect to Nidin.",
+            "unknown": "Unexpected error"
+        },
+        "flow_title": "Nidin: {name}",
+        "step": {
+            "user": {
+              "title": "Select Action",
+              "data": {
+                "action": "Action"
+              }
+            },
+            "cloud": {
+                "title": "Add Nidin Cloud Account",
+                "data": {
+                    "username": "Username",
+                    "password": "Password"
+                },
+                "description": "Please enter connection settings of your Nidin."
+            },
+            "token": {
+                "title": "Add Nidin by Tokens",
+                "data": {
+                    "username": "Username",
+                    "token": "Token"
+              },
+              "description": "You have to manually obtain Nidin [tokens](https://github.com/tsunglung/nidin/blob/master/docs/obtain_token.md)."
+            }
+        }
+    },
+    "options": {
+        "step": {
+            "cloud": {
+                "title": "Nidin",
+                "data": {
+                    "password": "Password"
+                }
+            },
+            "token": {
+                "title": "Nidin",
+                "data": {
+                    "token": "Token"
+                }
+            }
+        }
+    }
+}
